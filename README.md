@@ -67,6 +67,17 @@ For a meaningful comparison, use the same command, repository state, model,
 tokenizer, and acceptance criteria before and after filtering. A shorter log
 is not automatically a better diagnostic.
 
+### [`Caveman`](https://github.com/juliusbrussee/caveman)
+
+Caveman is a skill and proxy for coding agents that uses deliberately terse,
+caveman-style exchanges to reduce unnecessary conversational tokens. Its
+repository advertises a reduction of up to 65%; treat that as a project claim,
+not as a result measured by this talk.
+
+Validate the impact with the same task, model, tokenizer, context and
+acceptance criteria. Fewer tokens are useful only if the result remains
+correct and does not create additional correction work.
+
 ## Prompt caching and context reuse
 
 ### [OpenAI — Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching)
